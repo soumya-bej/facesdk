@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Face Auth SDK Demo"
+        android:textSize="20sp"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btn_start_auth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Face Authentication"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/btn_pid_generation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Direct PID Generation (Bypass Matching)"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#4CAF50"/>
+
+<!--    &lt;!&ndash; ML Kit Batch Processor &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/btn_batch_mlkit"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="▶ Run ML Kit Batch (/sdcard/bqcore_test/)"-->
+<!--        android:padding="16dp"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:backgroundTint="#FF6D00"/>-->
+
+    <TextView
+        android:id="@+id/batch_status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="13sp"
+        android:textColor="#555555"
+        android:layout_marginTop="12dp"
+        android:gravity="center"/>
+
+</LinearLayout>

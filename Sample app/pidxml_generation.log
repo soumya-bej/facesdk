@@ -1,0 +1,9 @@
+Exception in thread "main" java.io.IOException: keystore password was incorrect
+	at java.base/sun.security.pkcs12.PKCS12KeyStore.engineLoad(PKCS12KeyStore.java:2109)
+	at java.base/sun.security.util.KeyStoreDelegator.engineLoad(KeyStoreDelegator.java:226)
+	at java.base/java.security.KeyStore.load(KeyStore.java:1502)
+	at JsonToSignedXmlKt.loadP12(JsonToSignedXml.kt:82)
+	at JsonToSignedXmlKt.main(JsonToSignedXml.kt:41)
+	at JsonToSignedXmlKt.main(JsonToSignedXml.kt)
+Caused by: java.security.UnrecoverableKeyException: failed to decrypt safe contents entry: javax.crypto.BadPaddingException: Given final block not properly padded. Such issues can arise if a bad key is used during decryption.
+	... 6 more

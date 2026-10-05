@@ -1,0 +1,21 @@
+gitignore
+# Local configuration files (IMPORTANT: contains your GITHUB_TOKEN)
+local.properties
+
+# Build outputs
+.gradle/
+build/
+capture/
+app/build/
+
+# IDE files
+.idea/
+*.iml
+
+# Android specific
+captures/
+.externalNativeBuild/
+.cxx/
+.dex/
+tmp/
+skills/
